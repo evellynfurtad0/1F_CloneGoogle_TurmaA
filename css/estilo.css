@@ -4,8 +4,34 @@
     font-size: 15px;
 }
 body {
+    background-color: #fff;
+    font-size: 30px;
+
+    width: 100px;
+    height: 100;
+
+    display: flex;
+    flex-direction: column;
+
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
-  
+.header{
+    background-color: #4285F4;
+    height: 60px;
+}
+.main{
+    background-color: #ea4a3c;
+    flex-grow: 1;
+}
+.footer{
+    color: #6b7682;
+    background: #F2F2F2;
+    height: 60px;
+    border-bottom: 1px solid #DDDFE3;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+}
